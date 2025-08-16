@@ -1,0 +1,50 @@
+What is Amazon Virtual Private Cloud?
+Amazon VPC lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address ranges, creation of subnets, and configuration of route tables and network gateways.
+
+Why should I use Amazon VPC?
+no VPNs, hardware, or physical datacenters required. You can define your own network space, and control how your network and the Amazon EC2 resources inside your network are exposed to the Internet. 
+
+What are the different types of VPC endpoints available on Amazon VPC?
+VPC endpoints enable you to privately connect your VPC to services hosted on AWS without requiring an Internet gateway, a NAT device, VPN, or firewall proxies.
+
+What are the connectivity options for my Amazon VPC?
+You may connect your Amazon VPC to:
+1. The internet
+2. Your corporate data center using an AWS Site-to-Site VPN connection 
+3. Both of them.
+4. Other AWS services 
+5. Other Amazon VPCs 
+
+How do I connect my VPC to the Internet?
+Amazon VPC supports the creation of an Internet gateway. This gateway enables Amazon EC2 instances in the VPC to directly access the Internet.
+
+How do instances in a VPC access the Internet?
+You can use public IP addresses, including Elastic IP addresses (EIPs) and IPv6, to give instances in the VPC the ability to both directly communicate outbound to the internet and to receive unsolicited inbound traffic from the internet.
+
+How do instances without public IP addresses access the Internet?
+Instances without public IP addresses can access the Internet in one of two ways:
+
+1. Instances without public IP addresses can route their traffic through a NAT gateway or a NAT instance to access the Internet. 
+2. For VPCs with a hardware VPN connection or Direct Connect connection, instances can route their Internet traffic down the virtual private gateway to your existing datacenter. From there, it can access the Internet via your existing egress points.
+
+
+
+Q: What is Amazon S3?
+
+Amazon S3 is object storage built to store and retrieve any amount of data from anywhere. By using Amazon S3, it is inexpensive and simple to ensure your data is quickly accessible, always available, and secure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
